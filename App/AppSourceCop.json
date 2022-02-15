@@ -1,0 +1,11 @@
+{
+    "mandatoryPrefix":  "apt jqt ",
+    "supportedCountries":  [
+                               "US",
+                               "GB",
+                               "AU",
+                               "DE",
+                               "AT",
+                               "CH"
+                           ]
+}

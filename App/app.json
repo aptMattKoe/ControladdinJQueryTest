@@ -1,0 +1,37 @@
+{
+    "id":  "5e4e935e-3bbc-4f18-87ab-8d22cb76b7ce",
+    "name":  "jQuery Test",
+    "publisher":  "anaptis GmbH",
+    "brief":  "jQuery Test",
+    "description":  "jQuery Test",
+    "version":  "19.0.0.0",
+    "privacyStatement":  "https://dynamics.microsoft.com/de-de/business-central/overview/",
+    "EULA":  "https://dynamics.microsoft.com/de-de/business-central/overview/",
+    "help":  "https://dynamics.microsoft.com/de-de/business-central/overview/",
+    "url":  "https://dynamics.microsoft.com/de-de/business-central/overview/",
+    "logo":  "res/Images/Logo/Icon.png",
+    "dependencies":  [
+
+                     ],
+    "screenshots":  [
+
+                    ],
+    "application":  "17.0.0.0",
+    "platform":  "17.0.0.0",
+    "runtime":  "6.0",
+    "target":  "Cloud",
+    "idRanges":  [
+                     {
+                         "from":  50000,
+                         "to":  50099
+                     }
+                 ],
+    "contextSensitiveHelpUrl":  "https://example.com/help/",
+    "features":  [
+                     "TranslationFile"
+                 ],
+    "supportedLocales":  [
+                             "en-US",
+                             "de-DE"
+                         ]
+}

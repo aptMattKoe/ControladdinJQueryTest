@@ -1,0 +1,6 @@
+{
+    "name": "Ignore Ruleset",
+    "description": "These rules are ignored",
+    "rules": [
+    ]
+}

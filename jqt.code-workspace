@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "App"
+		}
+	],
+	"settings": {
+        "[al]": {
+            "editor.defaultFormatter": "ms-dynamics-smb.al"
+        },
+        "al.enableCodeActions": true,
+        "al.codeAnalyzers": [
+            "${PerTenantExtensionCop}",
+            "${CodeCop}",
+            "${UICop}"
+        ],
+        "al.enableCodeAnalysis": true,
+        "al.compilationOptions": {
+            "parallel": true
+		},
+		"al.incrementalBuild": true,
+
+        "CRS.OnSaveAlFileAction": "Rename",
+        "CRS.RemovePrefixFromFilename": true,
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+
+        "xliffSync.parseFromDeveloperNote": true,
+        "xliffSync.parseFromDeveloperNoteOverwrite": true
+    },
+    "extensions": {
+        "recommendations": [
+            "eamodio.gitlens",
+            "ms-dynamics-smb.al",
+            "andrzejzwierzchowski.al-code-outline",
+            "waldo.crs-al-language-extension",
+            "rvanbekkum.xliff-sync"
+        ]
+    }
+}
